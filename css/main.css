@@ -1,3 +1,4 @@
+
 body, html {
   text-align: center;
   font-family: Gotham, Helvetica, Arial, sans-serif;
@@ -50,4 +51,18 @@ h2 {
   }
 }
 
+
+/* ----------- Tablets larger than 768px wide ----------- */
+@media (min-width:768px) {
+	body {
+    background: red;
+  }
+}
+
+/* ----------- Monitors larger than 1200px wide ----------- */
+@media (min-width:1200px) {
+  body {
+    background: purple;
+  }
+}
 
